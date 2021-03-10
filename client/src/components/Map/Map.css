@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+}
+
+.st0 {
+    fill: none;
+    stroke: #f58634;
+    stroke-width: 13.9824;
+  }
+  .st1 {
+    fill: none;
+    stroke: #00a859;
+    stroke-width: 29.362;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .st2 {
+    fill: none;
+    stroke: #ffcc29;
+    stroke-width: 29.362;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .st3 {
+    fill: none;
+  }
+  .st4 {
+    fill: none;
+    stroke: #373435;
+    stroke-width: 3.8843;
+  }
+  .st5 {
+    fill: none;
+    stroke: #ffcc29;
+    stroke-width: 29.3631;
+    stroke-linecap: round;
+  }
+  .st6 {
+    fill: #a9abae;
+    stroke: #ffcc33;
+    stroke-width: 3.8843;
+  }
+  .st7 {
+    fill: #373435;
+  }
+  .st8 {
+    fill: #fefefe;
+    stroke: #373435;
+    stroke-width: 3.8843;
+  }
+  .st9 {
+    fill: none;
+    stroke: #373435;
+    stroke-width: 0.8389;
+  }
+  .st10 {
+    fill: #fefefe;
+    stroke: #ffcc29;
+    stroke-width: 3.8843;
+  }
+  .st11 {
+    fill: none;
+    stroke: #373435;
+    stroke-width: 9.2284;
+  }
+  .st12 {
+    fill: #fefefe;
+    stroke: #00a859;
+    stroke-width: 3.8843;
+  }
+  .st13 {
+    fill: #fefefe;
+  }
+  .st14 {
+    fill: none;
+    stroke: #fefefe;
+    stroke-width: 3.9151;
+  }
+  .st15 {
+    fill: #ffcc33;
+    stroke: #ffcc33;
+    stroke-width: 3.8843;
+  }
+  .st16 {
+    fill: #ffffff;
+    stroke: #000000;
+    stroke-width: 1.9575;
+  }
+  .st17 {
+    fill: #fefefe;
+    stroke: #373435;
+    stroke-width: 1.9575;
+  }
+  .st18 {
+    fill: #00a859;
+  }
+  .st19 {
+    fill: none;
+    stroke: #fefefe;
+    stroke-width: 2.7965;
+  }
+  .st20 {
+    fill: #96989a;
+  }
+  .st21 {
+    fill: none;
+    stroke: #96989a;
+    stroke-width: 9.2284;
+  }
+  .st22 {
+    fill: #f58634;
+    stroke: #f58634;
+    stroke-width: 3.8843;
+  }
+  .st23 {
+    fill: #a9abae;
+    stroke: #606062;
+    stroke-width: 1.9575;
+  }
+  .st24 {
+    fill: none;
+    stroke: #96989a;
+    stroke-width: 3.8843;
+  }
+  .st25 {
+    fill: none;
+    stroke: #a8518a;
+    stroke-width: 29.3631;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .st26 {
+    fill: #fefefe;
+    stroke: #a8518a;
+    stroke-width: 3.8843;
+  }
+  .st27 {
+    fill: none;
+    stroke: #9dd3af;
+    stroke-width: 13.9824;
+  }
+  .st28 {
+    fill: #a9abae;
+    stroke: #9dd3af;
+    stroke-width: 3.8843;
+  }
+  .st29 {
+    fill: #ffffff;
+    stroke: #000000;
+    stroke-width: 3.8843;
+  }
+  .st30 {
+    fill: #ffcc29;
+  }
+  .st31 {
+    fill: none;
+    stroke: #ffcc29;
+    stroke-width: 19.4202;
+    stroke-linecap: square;
+    stroke-linejoin: round;
+  }
+  .st32 {
+    fill: none;
+    stroke: #00a859;
+    stroke-width: 19.4202;
+    stroke-linecap: square;
+    stroke-linejoin: round;
+  }
+  .st33 {
+    fill: none;
+    stroke: #f58634;
+    stroke-width: 13.9824;
+    stroke-linecap: square;
+    stroke-linejoin: round;
+  }
+  .st34 {
+    fill: none;
+    stroke: #008f4f;
+    stroke-width: 19.4202;
+    stroke-linecap: square;
+    stroke-linejoin: round;
+  }
+  .st35 {
+    fill: none;
+    stroke: #a8518a;
+    stroke-width: 19.4202;
+    stroke-linecap: square;
+    stroke-linejoin: round;
+  }
+  .st36 {
+    fill: none;
+    stroke: #9dd3af;
+    stroke-width: 13.9824;
+    stroke-linecap: square;
+    stroke-linejoin: round;
+  }
+  .st37 {
+    fill: none;
+    stroke: #fefefe;
+    stroke-width: 9.2284;
+  }
+  .st38 {
+    fill: none;
+    stroke: #fefefe;
+    stroke-width: 3.8843;
+  }
+  .st39 {
+    fill: #009966;
+  }
+  .st40 {
+    fill: #009966;
+    stroke: #fefefe;
+    stroke-width: 2.7965;
+  }
+  .st41 {
+    fill: none;
+    stroke: #008f4f;
+    stroke-width: 29.362;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  /* Train CSS */
+  .train4 {
+    fill: none;
+    stroke: #542845;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .train1 {
+    fill: none;
+    stroke: #7f6614;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
