@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 
 import { UncontrolledReactSVGPanZoom } from "react-svg-pan-zoom";
 import Line4 from "./Lines/Line4";
+import Line1 from "./Lines/Line1";
 
 const Map = () => {
   const Viewer = useRef(null);
@@ -40,7 +41,9 @@ const Map = () => {
             showgrid="false"
           />
           <g className="viewport" id="map-layer">
-            <Line4 />
+          <Line1 />
+          <Line4 />
+            
           </g>
         </motion.svg>
       </UncontrolledReactSVGPanZoom>

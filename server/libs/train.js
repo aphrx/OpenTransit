@@ -1,13 +1,14 @@
 export default class Train {
-    constructor(tid, line, data, direction) {
+    constructor(tid, line, data, numOfStations) {
         this.train_id = tid
         this.line = line
         this.data = data
         this.current = 0
+        this.numOfStations = numOfStations
     }
 
     next(){
-        if(this.current >= 7){
+        if(this.current >= this.numOfStations){
             this.current = 0;
         }
         else{

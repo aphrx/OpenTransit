@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion, useCycle } from "framer-motion";
+import { motion } from "framer-motion";
 import { useSelector } from "react-redux";
 
 const Line4 = () => {
@@ -8,11 +8,12 @@ const Line4 = () => {
     const trains = useSelector((state) => state.trains);
     var animation1, animation2, line_4;
   
-    for (var i = 0; i < trains.length; i++) {
+    for(var i = 0; i < trains.length; i++){
       animation1 = Object.keys(trains[0].data)[trains[0].current]
       animation2 = Object.keys(trains[0].data)[trains[1].current]
       line_4 = trains[0].data;
     }
+    
 
     return (
         <>
