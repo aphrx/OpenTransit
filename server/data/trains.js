@@ -21,13 +21,13 @@ import { line_1 } from './line1.js'
         var c = new Train(i,4,line_4,7);
         trains[i] = c
         run_train(c)
-        await sleep(10000)
+        await sleep(100)
       }
       for(var i = 2; i < 4; i++){
-        var c = new Train(i,1,line_1,16);
+        var c = new Train(i,1,line_1,44);
         trains[i] = c
         run_train(c)
-        await sleep(10000)
+        await sleep(100)
       }
   }
 
