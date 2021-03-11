@@ -1,21 +1,21 @@
 # OpenTransit
 
-## Introduction
+### Introduction
 OpenTransit is a project aimed to create a Live Transit map for the Greater Toronto Area and potentially other parts of the world! Currently, the TTC Subway system map is in development with plans to expand to the TTC streetcar and bus network as well as the GO Train network.
 
 We hope to use APIs in order to get the information of the location of any given vehicle. For the services that do not offer a public API, we are using the information retrieved from the schedule. (Main branch currently is not for development sake).
 
-## Pre-requisites
+### Pre-requisites
 - Node.js
 - Git (If planning on contributing)
 
-## Setup
+### Setup
 1) Clone the project or download the zip file and extract the folder.
 2) Run ```npm install``` inside both the client and server folder
 3) Run ```npm start``` inside the server folder. Have this running in the background.
 4) Run ```npm start``` inside the client folder. It should prompt your browser to open to ```localhost:3000```. If not, enter this as your URL in any browser and have fun!
 
-## Contributing
+### Contributing
 You can find yourself contributing in any number of ways. 
 - For those who are developers, feel free to look through the client or server source code to see if you see any room for improvement!
 - If you are a designer or map developer, you might find yourself intrigued by the client/src/components folder. In the Lines folder within the Maps folder, you will see that each line.js returns fragments of an SVG file regarding that line.
