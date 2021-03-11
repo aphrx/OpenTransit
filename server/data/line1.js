@@ -11,7 +11,7 @@ export const line_1 = {
       name: "North York Centre",
       y: 75,
       transition: {
-        duration: 1,
+        duration: 5,
         ease: "easeInOut",
       },
     },
@@ -19,7 +19,7 @@ export const line_1 = {
         name: "Sheppard Yonge",
         y: 150,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -27,7 +27,7 @@ export const line_1 = {
         name: "York Mills",
         y: 300,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -35,7 +35,7 @@ export const line_1 = {
         name: "Lawrence",
         y: 450,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -43,7 +43,7 @@ export const line_1 = {
         name: "Eglinton",
         y: 600,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -51,7 +51,7 @@ export const line_1 = {
         name: "Davisville",
         y: 675,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -59,7 +59,7 @@ export const line_1 = {
         name: "St. Clair",
         y: 750,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -67,7 +67,7 @@ export const line_1 = {
         name: "Summerhill",
         y: 825,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -75,7 +75,7 @@ export const line_1 = {
         name: "Rosedale",
         y: 900,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -83,7 +83,7 @@ export const line_1 = {
         name: "Summerhill",
         y: 975,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -91,7 +91,7 @@ export const line_1 = {
         name: "Wellesley",
         y: 1050,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -99,7 +99,7 @@ export const line_1 = {
         name: "College",
         y: 1125,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -107,7 +107,7 @@ export const line_1 = {
         name: "Dundas",
         y: 1200,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -115,7 +115,7 @@ export const line_1 = {
         name: "Queen",
         y: 1275,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -123,7 +123,7 @@ export const line_1 = {
         name: "King",
         y: 1350,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -135,7 +135,7 @@ export const line_1 = {
         y: 1350,
         x:0,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -147,7 +147,7 @@ export const line_1 = {
         y: 1350,
         x:0,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -158,7 +158,7 @@ export const line_1 = {
         originY: "419px",
         y: 1275,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -169,7 +169,7 @@ export const line_1 = {
         originY: "419px",
         y: 1200,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -180,7 +180,7 @@ export const line_1 = {
         originY: "419px",
         y: 1125,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -191,7 +191,7 @@ export const line_1 = {
         originY: "419px",
         y: 1050,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -202,7 +202,7 @@ export const line_1 = {
         originY: "419px",
         y: 975,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -213,7 +213,7 @@ export const line_1 = {
         originY: "419px",
         y: 1050,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -224,7 +224,7 @@ export const line_1 = {
         originY: "419px",
         y: 1125,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -235,7 +235,7 @@ export const line_1 = {
         originY: "419px",
         y: 1200,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -246,7 +246,7 @@ export const line_1 = {
         originY: "419px",
         y: 1275,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -258,7 +258,7 @@ export const line_1 = {
         y: 1350,
         x:0,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -270,7 +270,7 @@ export const line_1 = {
         y: 1350,
         x:0,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -279,7 +279,7 @@ export const line_1 = {
         name: "King",
         y: 1350,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -287,7 +287,7 @@ export const line_1 = {
         name: "Queen",
         y: 1275,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -295,7 +295,7 @@ export const line_1 = {
         name: "Dundas",
         y: 1200,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -303,7 +303,7 @@ export const line_1 = {
         name: "College",
         y: 1125,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -311,7 +311,7 @@ export const line_1 = {
         name: "Wellesley",
         y: 1050,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -319,7 +319,7 @@ export const line_1 = {
         name: "Summerhill",
         y: 975,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -327,7 +327,7 @@ export const line_1 = {
         name: "Rosedale",
         y: 900,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -335,7 +335,7 @@ export const line_1 = {
         name: "Summerhill",
         y: 825,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -343,7 +343,7 @@ export const line_1 = {
         name: "St. Clair",
         y: 750,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -351,7 +351,7 @@ export const line_1 = {
         name: "Davisville",
         y: 675,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -359,7 +359,7 @@ export const line_1 = {
         name: "Eglinton",
         y: 600,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -367,7 +367,7 @@ export const line_1 = {
         name: "Lawrence",
         y: 450,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -375,7 +375,7 @@ export const line_1 = {
         name: "York Mills",
         y: 300,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -383,7 +383,7 @@ export const line_1 = {
         name: "Sheppard Yonge",
         y: 150,
         transition: {
-          duration: 1,
+          duration: 5,
           ease: "easeInOut",
         },
       },
@@ -392,7 +392,7 @@ export const line_1 = {
       name: "North York Centre",
       y: 75,
       transition: {
-        duration: 1,
+        duration: 5,
         ease: "easeInOut",
       },
     },
@@ -400,7 +400,7 @@ export const line_1 = {
       name: "Finch",
       y: 0,
       transition: {
-        duration: 1,
+        duration: 5,
         ease: "easeInOut",
       },
     },

@@ -8,10 +8,10 @@ const Line1 = () => {
   const trains = useSelector((state) => state.trains);
   var animation3, animation4, line_1;
 
-  for(var i = 0; i < trains.length; i++){
+  for (var i = 0; i < trains.length; i++) {
     animation3 = Object.keys(trains[2].data)[trains[2].current];
     animation4 = Object.keys(trains[3].data)[trains[3].current];
-  line_1 = trains[2].data;
+    line_1 = trains[2].data;
   }
 
   return (
@@ -41,6 +41,18 @@ const Line1 = () => {
         strokeWidth="30"
         strokeDasharray="230, 600"
         fill="none"
+      />
+      <polyline
+        xmlns="http://www.w3.org/2000/svg"
+        class="st2-disabled"
+        points="2193.6,1394.3 2118.5,1319.2 2118.5,1169.1 1969.5,1018.9 1894.4,719.7 1819.3,569.5  "
+        id="polyline18"
+      />
+      <polyline
+        xmlns="http://www.w3.org/2000/svg"
+        class="st2-disabled"
+        points="1819.3,569.5 1669.2,494.4 1594.1,419.4 1443.9,306.7 1293.8,194.1 1293.8,120.1  "
+        id="polyline72"
       />
 
       <motion.line
@@ -87,22 +99,7 @@ const Line1 = () => {
         r="13.9"
         id="circle893"
       />
-      <circle
-        xmlns="http://www.w3.org/2000/svg"
-        className="st8"
-        cx="2343.8"
-        cy="1394.3"
-        r="13.9"
-        id="circle534"
-      />
-      <circle
-        xmlns="http://www.w3.org/2000/svg"
-        className="st8"
-        cx="2193.6"
-        cy="1394.3"
-        r="13.9"
-        id="circle536"
-      />
+
       <circle className="st17" cx="2343.8" cy="419.4" r="10.7" id="circle791" />
       <circle className="st17" cx="2343.8" cy="494.4" r="10.7" id="circle793" />
       <circle className="st17" cx="2343.8" cy="719.7" r="10.7" id="circle795" />
@@ -205,6 +202,42 @@ const Line1 = () => {
         cy="1844.7"
         r="10.7"
         id="circle829"
+      />
+      <circle class="st16" cx="1293.8" cy="120.1" r="10.7" id="circle721" />
+      <circle class="st16" cx="1293.8" cy="194.1" r="10.7" id="circle723" />
+      <circle class="st16" cx="1394.6" cy="269.2" r="10.7" id="circle725" />
+      <circle class="st16" cx="1494.3" cy="344.3" r="10.7" id="circle727" />
+      <circle class="st16" cx="1669.2" cy="494.4" r="10.7" id="circle729" />
+      <circle class="st17" cx="1819.3" cy="569.5" r="10.7" id="circle731" />
+      <circle class="st17" cx="1894.4" cy="719.7" r="10.7" id="circle733" />
+      <circle class="st17" cx="1912.6" cy="794.7" r="10.7" id="circle735" />
+      <circle class="st17" cx="1931.9" cy="869.8" r="10.7" id="circle737" />
+      <circle class="st17" cx="1950.2" cy="944.9" r="10.7" id="circle739" />
+      <circle class="st17" cx="2118.5" cy="1169.1" r="10.7" id="circle741" />
+      <circle class="st17" cx="2118.5" cy="1244.1" r="10.7" id="circle743" />
+      <circle
+        xmlns="http://www.w3.org/2000/svg"
+        class="st17"
+        cx="1969.5"
+        cy="1018.9"
+        r="10.7"
+        id="circle895"
+      />
+      <circle
+        xmlns="http://www.w3.org/2000/svg"
+        class="st17"
+        cx="2118.5"
+        cy="1319.2"
+        r="10.7"
+        id="circle432"
+      />
+      <circle
+        xmlns="http://www.w3.org/2000/svg"
+        class="st17"
+        cx="1594.1"
+        cy="419.4"
+        r="10.7"
+        id="circle1064"
       />
     </>
   );

@@ -13,8 +13,7 @@ const Line4 = () => {
       animation2 = Object.keys(trains[0].data)[trains[1].current]
       line_4 = trains[0].data;
     }
-    
-
+  
     return (
         <>
             <line

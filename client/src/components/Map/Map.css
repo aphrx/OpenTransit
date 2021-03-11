@@ -36,9 +36,23 @@ body{
     stroke-linecap: round;
     stroke-linejoin: round;
   }
+  .st1-invalid {
+    fill: none;
+    stroke: #00a85a36;
+    stroke-width: 29.362;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
   .st2 {
     fill: none;
     stroke: #ffcc29;
+    stroke-width: 29.362;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .st2-disabled {
+    fill: none;
+    stroke: #ffcc2a36;
     stroke-width: 29.362;
     stroke-linecap: round;
     stroke-linejoin: round;

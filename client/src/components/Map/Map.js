@@ -6,6 +6,7 @@ import { useSelector } from "react-redux";
 import { UncontrolledReactSVGPanZoom } from "react-svg-pan-zoom";
 import Line4 from "./Lines/Line4";
 import Line1 from "./Lines/Line1";
+import Line2 from "./Lines/Line2";
 
 const Map = () => {
   const Viewer = useRef(null);
@@ -42,6 +43,7 @@ const Map = () => {
           />
           <g className="viewport" id="map-layer">
           <Line1 />
+          <Line2 />
           <Line4 />
             
           </g>
