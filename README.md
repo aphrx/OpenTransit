@@ -1,4 +1,6 @@
-# OpenTransit
+<p align="center">
+  <img width="400" src="logo.png" alt="Material Bread logo">
+</p>
 
 ### Introduction
 OpenTransit is a project aimed to create a Live Transit map for the Greater Toronto Area and potentially other parts of the world! Currently, the TTC Subway system map is in development with plans to expand to the TTC streetcar and bus network as well as the GO Train network.
