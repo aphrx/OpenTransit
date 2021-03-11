@@ -15,7 +15,7 @@ const Map = () => {
   }, []);
 
   return (
-    <div>
+    <div className="container">
       <UncontrolledReactSVGPanZoom
         ref={Viewer}
         width={window.innerWidth}

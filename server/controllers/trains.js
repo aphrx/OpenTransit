@@ -1,4 +1,3 @@
-import TrainMessage from '../models/trainMessage.js';
 import { get_trains } from '../data/trains.js'
 
 export const getTrains = async (req, res) => {

@@ -1,0 +1,12 @@
+
+ .tag {
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1px;
+    background-color: #ffffff;
+    z-index: 1000;
+    padding: 10px 20px 10px 20px;
+ }
