@@ -23,7 +23,6 @@ We hope to use APIs in order to get the information of the location of any given
   <p align="center">Line 1, 2 and 4 of TTC Subway System. Light colored sections aren't currently animated.</p>
 </p>
 
-
 ### Contributing
 You can find yourself contributing in any number of ways. 
 - For those who are developers, feel free to look through the client or server source code to see if you see any room for improvement!
