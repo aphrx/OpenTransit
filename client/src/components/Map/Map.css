@@ -271,4 +271,11 @@ body{
     stroke-linecap: round;
     stroke-linejoin: round;
   }
+  .train2 {
+    fill: none;
+    stroke: #46ffc1;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
   

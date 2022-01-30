@@ -46,29 +46,4 @@ export const line_4 = {
         ease: "easeInOut",
       },
     },
-    line_4_leslie_west: {
-      name: "Leslie",
-      x: 449,
-      x2: 2365,
-      transition: {
-        duration: 3,
-        ease: "easeInOut",
-      },
-    },
-    line_4_bessarion_west: {
-      name: "Bessarion",
-      x: 336, 
-      transition: {
-        duration: 3,
-        ease: "easeInOut",
-      },
-    },
-    line_4_bayview_west: {
-      name: "Bayview",
-      x: 224, 
-      transition: {
-        duration: 3,
-        ease: "easeInOut",
-      },
-    },
   };

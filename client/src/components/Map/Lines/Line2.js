@@ -6,18 +6,18 @@ const Line2 = () => {
   const history = [0, 0];
 
   const trains = useSelector((state) => state.trains);
-  var animation1, animation2, line_2;
+  var animation4, animation5, line_2;
 
   for (var i = 0; i < trains.length; i++) {
-    animation1 = Object.keys(trains[0].data)[trains[0].current];
-    animation2 = Object.keys(trains[0].data)[trains[1].current];
-    line_2 = trains[0].data;
+    console.log(trains[4].data);
+    animation4 = Object.keys(trains[4].data)[trains[4].current];
+    animation5 = Object.keys(trains[5].data)[trains[5].current];
+    line_2 = trains[4].data;
   }
   return (
     <>
       <polyline
-        xmlns="http://www.w3.org/2000/svg"
-        class="st1-invalid"
+        class="st1"
         points="1143.6,1394.3 2122.8,1394.3 3093.5,1394.3  "
         id="polyline16"
       />
@@ -28,8 +28,7 @@ const Line2 = () => {
         id="polyline14"
       />
       <line
-        xmlns="http://www.w3.org/2000/svg"
-        class="st1-invalid"
+        class="st1"
         x1="1144.7"
         y1="1394.3"
         x2="769.3"
@@ -45,18 +44,32 @@ const Line2 = () => {
         y2="1431.8"
         id="line616"
       />
+      <motion.line
+        key={history[-1]}
+        id={history[-1]}
+        variants={line_2}
+        animate={animation4}
+        opacity="0.5"
+        className="train2"
+        x1="-20"
+        y1="1395"
+        x2="20"
+        y2="1395"
+        id="train101"
+      />
 
       <motion.line
-              key={history[-1]}
-              opacity="0.5"
-              className="train2"
-              id={history[-1]}
-              x1="2325"
-              y1="569.5"
-              x2="2365"
-              y2="569.5"
-              variants={line_2}
-              
+        key={history[-1]}
+        id={history[-1]}
+        variants={line_2}
+        animate={animation5}
+        opacity="0.5"
+        className="train2"
+        x1="-20"
+        y1="1395"
+        x2="20"
+        y2="1395"
+        id="train101"
       />
 
       <circle class="st17" cx="2044.5" cy="1394.3" r="10.7" id="circle745" />

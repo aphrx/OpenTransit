@@ -12,6 +12,7 @@ const Line4 = () => {
       animation1 = Object.keys(trains[0].data)[trains[0].current]
       animation2 = Object.keys(trains[0].data)[trains[1].current]
       line_4 = trains[0].data;
+      
     }
   
     return (

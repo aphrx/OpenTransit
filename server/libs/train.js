@@ -4,16 +4,19 @@ export default class Train {
         this.line = line
         this.data = data
         this.current = 0
+        this.direction = 1 // 1 is East, -1 is West
         this.numOfStations = numOfStations
     }
 
     next(){
-        if(this.current >= this.numOfStations){
-            this.current = 0;
+        if(this.current == 0){
+            this.direction = 1
         }
-        else{
-            this.current += 1;
+        else if(this.current == this.numOfStations-1){
+            
+            this.direction = -1
         }
+        this.current += this.direction;
         let prevIndex = this.current 
         
         console.log(`Train ${this.train_id} is at ${this.data[Object.keys(this.data)[prevIndex]]["name"]} Station`);

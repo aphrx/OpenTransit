@@ -14,7 +14,7 @@ We hope to use APIs in order to get the information of the location of any given
 ### Setup
 1) Clone the project or download the zip file and extract the folder.
 2) Run ```npm install``` inside both the client and server folder
-3) Run ```npm start``` inside the server folder. Have this running in the background. Wait until Train 0, 1, 2 and 3 are sending messages. Otherwise, you might face an error when launching the client.
+3) Run ```npm start``` inside the server folder. Have this running in the background. Wait until Train 0 - 5 are sending messages. Otherwise, you might face an error when launching the client. (This is something we plan to resolve soon as it takes really long and can be annoying)
 4) Run ```npm start``` inside the client folder. It should prompt your browser to open to ```localhost:3000```. If not, enter this as your URL in any browser and have fun!
 
 ### Current Map
