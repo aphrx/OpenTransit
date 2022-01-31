@@ -20,7 +20,7 @@ We hope to use APIs in order to get the information of the location of any given
 ### Current Map
 <p align="center">
   <img width="600" src="res/current_map.png" alt="Material Bread logo">
-  <p align="center">Line 1, 2 and 4 of TTC Subway System. Light colored sections aren't currently animated.</p>
+  <p align="center">Line 1, 2 and 4 of TTC Subway System. Light colored sections aren't currently animated. (Note: Issues on Line 1 after King going to Finch due to refactoring)</p>
 </p>
 
 ### Contributing
