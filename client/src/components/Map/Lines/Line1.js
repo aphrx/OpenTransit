@@ -62,10 +62,10 @@ const Line1 = () => {
         animate={animation3}
         opacity="0.5"
         className="train1"
-        x1="2343"
-        y1="399"
-        x2="2343"
-        y2="439"
+        x1="0"
+        y1="-20"
+        x2="0"
+        y2="20"
         id="train101"
       />
 
@@ -76,10 +76,10 @@ const Line1 = () => {
         animate={animation4}
         opacity="0.5"
         className="train1"
-        x1="2343"
-        y1="399"
-        x2="2343"
-        y2="439"
+        x1="0"
+        y1="-20"
+        x2="0"
+        y2="20"
         id="train101"
       />
 

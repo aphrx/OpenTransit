@@ -20,6 +20,7 @@ export const createTrain = async(req, res) => {
 export const updateTrain = async (req, res) => {
     const { id: _id } = req.params;
     const train = req.body;
+    console.log(train)
 
     if(!mongoose.Types.ObjectId.isValid(_id)) return res.status(404).send('No posts with that id');
 

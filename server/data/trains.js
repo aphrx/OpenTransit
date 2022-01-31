@@ -21,19 +21,22 @@ import { line_1 } from './line1.js'
         var c = new Train(i,4,line_4,Object.keys(line_4).length);
         trains[i] = c
         run_train(c)
-        await sleep(12000)
+        console.log(`Train ${i+1} for Line 4 has departed`)
+        // await sleep(12000)
       }
       for(var i = 2; i < 4; i++){
         var c = new Train(i,1,line_1,Object.keys(line_1).length);
         trains[i] = c
         run_train(c)
-        await sleep(30000)
+        console.log(`Train ${i+1} for Line 1 has departed`)
+        // await sleep(30000)
       }
       for(var i = 4; i < 6; i++){
         var c = new Train(i,2,line_2,Object.keys(line_2).length);
         trains[i] = c
         run_train(c)
-        await sleep(30000)
+        console.log(`Train ${i+1} for Line 2 has departed`)
+        // await sleep(30000)
       }
   }
 

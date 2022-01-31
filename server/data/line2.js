@@ -1,210 +1,340 @@
 export const line_2 = {
-    line_2_islington_east: {
-        name: "Islington",
-        x: 770,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_royal_york_east: {
-        name: "Royal York",
-        x: 994,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_old_mill_east: {
-        name: "Old Mill",
-        x: 1145,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_jane_east: {
-        name: "Jane",
-        x: 1295,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_runnymede_east: {
-        name: "Runnymede",
-        x: 1445,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_high_park_east: {
-        name: "High Park",
-        x: 1520,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_keele_east: {
-        name: "Keele",
-        x: 1595,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_dundas_west_east: {
-        name: "Dundas",
-        x: 1670,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_lansdowne_east: {
-        name: "Lansdowne",
-        x: 1745,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_dufferin_east: {
-        name: "Dufferin",
-        x: 1820,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_ossington_east: {
-        name: "Ossington",
-        x: 1895,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_christie_east: {
-        name: "Christie",
-        x: 1970,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_bathurst_east: {
-        name: "Bathurst",
-        x: 2045,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_st_george_east: {
-        name: "St. George",
-        x: 2195,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_bay_east: {
-        name: "Bay",
-        x: 2268,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_bloor_younge_east: {
-        name: "Bloor-Yonge",
-        x: 2343,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_sherbourne_east: {
-        name: "Sherbourne",
-        x: 2418,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_castle_frank_east: {
-        name: "Castle Frank",
-        x: 2493,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_broadview_east: {
-        name: "Broadview",
-        x: 2569,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_chester_east: {
-        name: "Chester",
-        x: 2644,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_pape_east: {
-        name: "Pape",
-        x: 2719,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_donlands_east: {
-        name: "Donlands",
-        x: 2794,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_greenwood_east: {
-        name: "Greenwood",
-        x: 2869,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_coxwell_east: {
-        name: "Coxwell",
-        x: 2943,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_woodbine_east: {
-        name: "Woodbine",
-        x: 3018,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-      line_2_main_street_east: {
-        name: "Main Street",
-        x: 3093,
-        transition: {
-          duration: 5,
-          ease: "easeInOut",
-        },
-      },
-}
+  line_2_kipling: {
+    name: "Kipling",
+    rotate_east: -27,
+    rotate_west: -27,
+    y: 1431,
+    x: 694,
+    transition: {
+      rotate: { duration: 0 },
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_islington: {
+    name: "Islington",
+    rotate_east: -27,
+    rotate_west: 0,
+    y: 1394,
+    x: 770,
+    transition: {
+      rotate: { duration: 0 },
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_royal_york: {
+    name: "Royal York",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 994,
+    transition: {
+      rotate: { duration: 0 },
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_old_mill: {
+    name: "Old Mill",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 1145,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_jane: {
+    name: "Jane",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 1295,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_runnymede: {
+    name: "Runnymede",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 1445,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_high_park: {
+    name: "High Park",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 1520,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_keele: {
+    name: "Keele",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 1595,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_dundas_west: {
+    name: "Dundas",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 1670,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_lansdowne: {
+    name: "Lansdowne",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 1745,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_dufferin: {
+    name: "Dufferin",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 1820,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_ossington: {
+    name: "Ossington",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 1895,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_christie: {
+    name: "Christie",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 1970,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_bathurst: {
+    name: "Bathurst",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 2045,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_st_george: {
+    name: "St. George",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 2195,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_bay: {
+    name: "Bay",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 2268,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_bloor_younge: {
+    name: "Bloor-Yonge",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 2343,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_sherbourne: {
+    name: "Sherbourne",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 2418,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_castle_frank: {
+    name: "Castle Frank",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 2493,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_broadview: {
+    name: "Broadview",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 2569,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_chester: {
+    name: "Chester",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 2644,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_pape: {
+    name: "Pape",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 2719,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_donlands: {
+    name: "Donlands",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 2794,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_greenwood: {
+    name: "Greenwood",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 2869,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_coxwell: {
+    name: "Coxwell",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 2943,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_woodbine: {
+    name: "Woodbine",
+    rotate_east: 0,
+    rotate_west: 0,
+    y: 1394,
+    x: 3018,
+    transition: {
+      rotate: { duration: 0 },
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_main_street: {
+    name: "Main Street",
+    rotate_east: 0,
+    rotate_west: -27,
+    y: 1394,
+    x: 3093,
+    transition: {
+      rotate: { duration: 0 },
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_victoria_park: {
+    name: "Victoria Park",
+    y: 1356,
+    x: 3168,
+    rotate_east: -27,
+    rotate_west: -40,
+    transition: {
+      rotate: { duration: 0 },
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_warden: {
+    name: "Warden",
+    y: 1169,
+    x: 3394,
+    rotate_east: -40,
+    rotate_west: -35,
+    transition: {
+      rotate: { duration: 0 },
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  line_2_kennedy: {
+    name: "Kennedy",
+    y: 1018,
+    x: 3619,
+    rotate_east: -35,
+    rotate_west: -35,
+    transition: {
+      rotate: { duration: 0 },
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+};

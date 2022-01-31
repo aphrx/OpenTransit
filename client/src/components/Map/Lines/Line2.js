@@ -23,7 +23,7 @@ const Line2 = () => {
       />
       <polyline
         xmlns="http://www.w3.org/2000/svg"
-        class="st1-invalid"
+        class="st1"
         points="3093.5,1394.3 3168.5,1356.7 3393.8,1169.1 3619,1018.9  "
         id="polyline14"
       />
@@ -37,7 +37,7 @@ const Line2 = () => {
       />
       <line
         xmlns="http://www.w3.org/2000/svg"
-        class="st1-invalid"
+        class="st1"
         x1="769.3"
         y1="1394.3"
         x2="694.2"
@@ -52,9 +52,9 @@ const Line2 = () => {
         opacity="0.5"
         className="train2"
         x1="-20"
-        y1="1395"
+        y1="0"
         x2="20"
-        y2="1395"
+        y2="0"
         id="train101"
       />
 
@@ -66,9 +66,9 @@ const Line2 = () => {
         opacity="0.5"
         className="train2"
         x1="-20"
-        y1="1395"
+        y1="0"
         x2="20"
-        y2="1395"
+        y2="0"
         id="train101"
       />
 
